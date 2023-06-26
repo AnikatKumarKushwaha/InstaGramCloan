@@ -24,6 +24,7 @@ function InstaStory() {
           </View>
         );
       }}
+      keyExtractor={() => Math.random()}
     />
   );
 }
